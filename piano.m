@@ -87,7 +87,7 @@ pfft       = angle(fftAudio)*(180/pi);
 f          = linspace(-fs/2,fs/2,length(fftAudio));
 
 axes(handles.axes1)
-figure,plot(f,mfft,'m.-')
+plot(f,mfft,'m.-')
 axis([0 40 0 100]);
 
 %[data, fs] = audioread('1.mp3');
@@ -336,7 +336,7 @@ pfft       = angle(fftAudio)*(180/pi);
 f          = linspace(-fs/2,fs/2,length(fftAudio));
 
 axes(handles.axes1)
-figure,plot(f,mfft,'m.-')
+plot(f,mfft,'m.-')
 axis([0 40 0 100]);
 
 
