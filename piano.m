@@ -90,6 +90,8 @@ axes(handles.axes1)
 plot(f,mfft,'m.-')
 axis([0 40 0 100]);
 
+set(handles.txt_DisplayHz, 'String', "27.5 Hz");
+
 %[data, fs] = audioread('1.mp3');
 %data_fft = fft(data);
 %axes(handles.axes1)
@@ -325,7 +327,9 @@ playAudio('88.mp3');
 function key2_Callback(hObject, eventdata, handles)
 playAudio('2.mp3');
 
-[audio,fs] = audioread('2.mp3');
+
+[audio,fs] = audioread('2.mp3'); 
+fs
 audio      = audio(:,1)./max(audio(:,1));
 dt         = 1/fs;
 t          = linspace(0, length(audio)/fs, length(audio));
@@ -337,7 +341,10 @@ f          = linspace(-fs/2,fs/2,length(fftAudio));
 
 axes(handles.axes1)
 plot(f,mfft,'m.-')
-axis([0 40 0 100]);
+axis([0 40 0 200]);
+
+set(handles.txt_DisplayHz, 'String', "29.13524 Hz");
+
 
 
 % --- Executes on button press in key5.
