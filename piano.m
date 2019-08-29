@@ -110,332 +110,191 @@ playAudio('6.mp3');
 
 % --- Executes on button press in key8.
 function key8_Callback(hObject, eventdata, handles)
-% hObject    handle to key8 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('8.mp3');
 
 % --- Executes on button press in key9.
 function key9_Callback(hObject, eventdata, handles)
-% hObject    handle to key9 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('9.mp3');
 
 % --- Executes on button press in key11.
 function key11_Callback(hObject, eventdata, handles)
-% hObject    handle to key11 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-
+playAudio('11.mp3');
 % --- Executes on button press in key13.
 function key13_Callback(hObject, eventdata, handles)
-% hObject    handle to key13 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('13.mp3');
 
 % --- Executes on button press in key15.
 function key15_Callback(hObject, eventdata, handles)
-% hObject    handle to key15 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('15.mp3');
 
 % --- Executes on button press in key16.
 function key16_Callback(hObject, eventdata, handles)
-% hObject    handle to key16 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('16.mp3');
 
 % --- Executes on button press in key18.
 function key18_Callback(hObject, eventdata, handles)
-% hObject    handle to key18 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('18.mp3');
 
 % --- Executes on button press in key20.
 function key20_Callback(hObject, eventdata, handles)
-% hObject    handle to key20 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('20.mp3');
 
 % --- Executes on button press in key21.
 function key21_Callback(hObject, eventdata, handles)
-% hObject    handle to key21 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('21.mp3');
 
 % --- Executes on button press in key23.
 function key23_Callback(hObject, eventdata, handles)
-% hObject    handle to key23 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('23.mp3');
 
 % --- Executes on button press in key25.
 function key25_Callback(hObject, eventdata, handles)
-% hObject    handle to key25 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('25.mp3');
 
 % --- Executes on button press in key27.
 function key27_Callback(hObject, eventdata, handles)
-% hObject    handle to key27 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('27.mp3');
 
 % --- Executes on button press in key28.
 function key28_Callback(hObject, eventdata, handles)
-% hObject    handle to key28 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('28.mp3');
 
 % --- Executes on button press in key30.
 function key30_Callback(hObject, eventdata, handles)
-% hObject    handle to key30 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('30.mp3');
 
 % --- Executes on button press in key32.
 function key32_Callback(hObject, eventdata, handles)
-% hObject    handle to key32 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('32.mp3');
 
 % --- Executes on button press in key33.
 function key33_Callback(hObject, eventdata, handles)
-% hObject    handle to key33 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('33.mp3');
 
 % --- Executes on button press in key35.
 function key35_Callback(hObject, eventdata, handles)
-% hObject    handle to key35 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('35.mp3');
 
 % --- Executes on button press in key37.
 function key37_Callback(hObject, eventdata, handles)
-% hObject    handle to key37 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('37.mp3');
 
 % --- Executes on button press in key39.
 function key39_Callback(hObject, eventdata, handles)
-% hObject    handle to key39 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('39.mp3');
 
 % --- Executes on button press in key40.
 function key40_Callback(hObject, eventdata, handles)
-% hObject    handle to key40 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('40.mp3');
 
 % --- Executes on button press in key42.
 function key42_Callback(hObject, eventdata, handles)
-% hObject    handle to key42 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('42.mp3');
 
 % --- Executes on button press in key44.
 function key44_Callback(hObject, eventdata, handles)
-% hObject    handle to key44 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('44.mp3');
 
 % --- Executes on button press in key45.
 function key45_Callback(hObject, eventdata, handles)
-% hObject    handle to key45 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('45.mp3');
 
 % --- Executes on button press in key47.
 function key47_Callback(hObject, eventdata, handles)
-% hObject    handle to key47 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('47.mp3');
 
 % --- Executes on button press in key49.
 function key49_Callback(hObject, eventdata, handles)
-% hObject    handle to key49 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('49.mp3');
 
 % --- Executes on button press in key51.
 function key51_Callback(hObject, eventdata, handles)
-% hObject    handle to key51 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('51.mp3');
 
 % --- Executes on button press in key52.
 function key52_Callback(hObject, eventdata, handles)
-% hObject    handle to key52 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('52.mp3');
 
 % --- Executes on button press in key54.
 function key54_Callback(hObject, eventdata, handles)
-% hObject    handle to key54 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('54.mp3');
 
 % --- Executes on button press in key56.
 function key56_Callback(hObject, eventdata, handles)
-% hObject    handle to key56 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('56.mp3');
 
 % --- Executes on button press in key57.
 function key57_Callback(hObject, eventdata, handles)
-% hObject    handle to key57 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('57.mp3');
 
 % --- Executes on button press in key59.
 function key59_Callback(hObject, eventdata, handles)
-% hObject    handle to key59 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('59.mp3');
 
 % --- Executes on button press in key61.
 function key61_Callback(hObject, eventdata, handles)
-% hObject    handle to key61 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('61.mp3');
 
 % --- Executes on button press in key63.
 function key63_Callback(hObject, eventdata, handles)
-% hObject    handle to key63 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('63.mp3');
 
 % --- Executes on button press in key64.
 function key64_Callback(hObject, eventdata, handles)
-% hObject    handle to key64 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('64.mp3');
 
 % --- Executes on button press in key66.
 function key66_Callback(hObject, eventdata, handles)
-% hObject    handle to key66 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('66.mp3');
 
 % --- Executes on button press in key68.
 function key68_Callback(hObject, eventdata, handles)
-% hObject    handle to key68 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('68.mp3');
 
 % --- Executes on button press in key69.
 function key69_Callback(hObject, eventdata, handles)
-% hObject    handle to key69 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('69.mp3');
 
 % --- Executes on button press in key71.
 function key71_Callback(hObject, eventdata, handles)
-% hObject    handle to key71 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('71.mp3');
 
 % --- Executes on button press in key73.
 function key73_Callback(hObject, eventdata, handles)
-% hObject    handle to key73 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+playAudio('73.mp3');
 
 
 % --- Executes on button press in key75.
 function key75_Callback(hObject, eventdata, handles)
-% hObject    handle to key75 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('75.mp3');
 
 % --- Executes on button press in key76.
 function key76_Callback(hObject, eventdata, handles)
-% hObject    handle to key76 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('76.mp3');
 
 % --- Executes on button press in key78.
 function key78_Callback(hObject, eventdata, handles)
-% hObject    handle to key78 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('78.mp3');
 
 % --- Executes on button press in key80.
 function key80_Callback(hObject, eventdata, handles)
-% hObject    handle to key80 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('80.mp3');
 
 % --- Executes on button press in key81.
 function key81_Callback(hObject, eventdata, handles)
-% hObject    handle to key81 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('81.mp3');
 
 % --- Executes on button press in key83.
 function key83_Callback(hObject, eventdata, handles)
-% hObject    handle to key83 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('83.mp3');
 
 % --- Executes on button press in key85.
 function key85_Callback(hObject, eventdata, handles)
-% hObject    handle to key85 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('85.mp3');
 
 % --- Executes on button press in key87.
 function key87_Callback(hObject, eventdata, handles)
-% hObject    handle to key87 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('87.mp3');
 
 % --- Executes on button press in key88.
 function key88_Callback(hObject, eventdata, handles)
@@ -456,234 +315,135 @@ playAudio('7.mp3');
 
 % --- Executes on button press in key10.
 function key10_Callback(hObject, eventdata, handles)
-% hObject    handle to key10 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('10.mp3');
 
 % --- Executes on button press in key12.
 function key12_Callback(hObject, eventdata, handles)
-% hObject    handle to key12 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('12.mp3');
 
 % --- Executes on button press in key14.
 function key14_Callback(hObject, eventdata, handles)
-% hObject    handle to key14 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('14.mp3');
 
 % --- Executes on button press in key17.
 function key17_Callback(hObject, eventdata, handles)
-% hObject    handle to key17 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('17.mp3');
 
 % --- Executes on button press in key19.
 function key19_Callback(hObject, eventdata, handles)
-% hObject    handle to key19 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('19.mp3');
 
 % --- Executes on button press in key22.
 function key22_Callback(hObject, eventdata, handles)
-% hObject    handle to key22 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('22.mp3');
 
 % --- Executes on button press in key24.
 function key24_Callback(hObject, eventdata, handles)
-% hObject    handle to key24 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('24.mp3');
 
 % --- Executes on button press in key26.
 function key26_Callback(hObject, eventdata, handles)
-% hObject    handle to key26 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('26.mp3');
 
 % --- Executes on button press in key29.
 function key29_Callback(hObject, eventdata, handles)
-% hObject    handle to key29 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('29.mp3');
 
 % --- Executes on button press in key31.
 function key31_Callback(hObject, eventdata, handles)
-% hObject    handle to key31 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('31.mp3');
 
 % --- Executes on button press in key34.
 function key34_Callback(hObject, eventdata, handles)
-% hObject    handle to key34 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('34.mp3');
 
 % --- Executes on button press in key36.
 function key36_Callback(hObject, eventdata, handles)
-% hObject    handle to key36 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('36.mp3');
 
 % --- Executes on button press in key38.
 function key38_Callback(hObject, eventdata, handles)
-% hObject    handle to key38 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('38.mp3');
 
 % --- Executes on button press in key41.
 function key41_Callback(hObject, eventdata, handles)
-% hObject    handle to key41 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('41.mp3');
 
 % --- Executes on button press in key43.
 function key43_Callback(hObject, eventdata, handles)
-% hObject    handle to key43 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('43.mp3');
 
 % --- Executes on button press in key46.
 function key46_Callback(hObject, eventdata, handles)
-% hObject    handle to key46 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('46.mp3');
 
 % --- Executes on button press in key48.
 function key48_Callback(hObject, eventdata, handles)
-% hObject    handle to key48 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('48.mp3');
 
 % --- Executes on button press in key50.
 function key50_Callback(hObject, eventdata, handles)
-% hObject    handle to key50 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('50.mp3');
 
 % --- Executes on button press in key53.
 function key53_Callback(hObject, eventdata, handles)
-% hObject    handle to key53 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('53.mp3');
 
 % --- Executes on button press in key55.
 function key55_Callback(hObject, eventdata, handles)
-% hObject    handle to key55 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('55.mp3');
 
 % --- Executes on button press in key58.
 function key58_Callback(hObject, eventdata, handles)
-% hObject    handle to key58 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('58.mp3');
 
 % --- Executes on button press in key60.
 function key60_Callback(hObject, eventdata, handles)
-% hObject    handle to key60 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('60.mp3');
 
 % --- Executes on button press in key62.
 function key62_Callback(hObject, eventdata, handles)
-% hObject    handle to key62 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('62.mp3');
 
 % --- Executes on button press in key65.
 function key65_Callback(hObject, eventdata, handles)
-% hObject    handle to key65 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('65.mp3');
 
 % --- Executes on button press in key67.
 function key67_Callback(hObject, eventdata, handles)
-% hObject    handle to key67 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('67.mp3');
 
 % --- Executes on button press in key70.
 function key70_Callback(hObject, eventdata, handles)
-% hObject    handle to key70 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('70.mp3');
 
 % --- Executes on button press in key72.
 function key72_Callback(hObject, eventdata, handles)
-% hObject    handle to key72 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('72.mp3');
 
 % --- Executes on button press in key74.
 function key74_Callback(hObject, eventdata, handles)
-% hObject    handle to key74 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('74.mp3');
 
 % --- Executes on button press in key77.
 function key77_Callback(hObject, eventdata, handles)
-% hObject    handle to key77 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('77.mp3');
 
 % --- Executes on button press in key79.
 function key79_Callback(hObject, eventdata, handles)
-% hObject    handle to key79 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('79.mp3');
 
 % --- Executes on button press in key82.
 function key82_Callback(hObject, eventdata, handles)
-% hObject    handle to key82 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('82.mp3');
 
 % --- Executes on button press in key84.
 function key84_Callback(hObject, eventdata, handles)
-% hObject    handle to key84 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('84.mp3');
 
 % --- Executes on button press in key86.
 function key86_Callback(hObject, eventdata, handles)
-% hObject    handle to key86 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
+playAudio('86.mp3');
 
 % --- If Enable == 'on', executes on mouse press in 5 pixel border.
 % --- Otherwise, executes on mouse press in 5 pixel border or over key8.
