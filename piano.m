@@ -22,7 +22,7 @@ function varargout = piano(varargin)
 
 % Edit the above text to modify the response to help piano
 
-% Last Modified by GUIDE v2.5 29-Aug-2019 00:13:39
+% Last Modified by GUIDE v2.5 29-Aug-2019 18:36:04
 
 % Begin initialization code - KEY1 NOT EDIT
 gui_Singleton = 1;
@@ -567,3 +567,12 @@ function pushbutton197_Callback(hObject, eventdata, handles)
 function playAudio(pathAudio)
 [y,Fs] = audioread(pathAudio);
 sound(y,Fs);
+
+
+% --- Executes on button press in togglebutton1.
+function togglebutton1_Callback(hObject, eventdata, handles)
+% hObject    handle to togglebutton1 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of togglebutton1
