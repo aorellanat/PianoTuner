@@ -76,25 +76,11 @@ varargout{1} = handles.output;
 function key1_Callback(hObject, eventdata, handles)
 playAudio('1.mp3');
 
-[audio,fs] = audioread('1.mp3');
-audio      = audio(:,1)./max(audio(:,1));
-dt         = 1/fs;
-t          = linspace(0, length(audio)/fs, length(audio));
-T          = max(t);
-fftAudio   = fftshift(fft(audio));
-mfft       = abs(fftAudio);
-pfft       = angle(fftAudio)*(180/pi);
-f          = linspace(-fs/2,fs/2,length(fftAudio));
-
+[data, fs] = audioread('1.mp3');
+data_fft = fft(data);
 axes(handles.axes1)
-figure,plot(f,mfft,'m.-')
-axis([0 40 0 100]);
-
-%[data, fs] = audioread('1.mp3');
-%data_fft = fft(data);
-%axes(handles.axes1)
-%plot(abs(data_fft(:,1)))
-%axis([0 2000 0 700]);
+plot(abs(data_fft(:,1)))
+axis([0 100 0 700]);
 
 
 %[S, w] = audioToFFT('delfin.mp3');
@@ -465,20 +451,6 @@ playAudio('88.mp3');
 % --- Executes on button press in key2.
 function key2_Callback(hObject, eventdata, handles)
 playAudio('2.mp3');
-
-[audio,fs] = audioread('2.mp3');
-audio      = audio(:,1)./max(audio(:,1));
-dt         = 1/fs;
-t          = linspace(0, length(audio)/fs, length(audio));
-T          = max(t);
-fftAudio   = fftshift(fft(audio));
-mfft       = abs(fftAudio);
-pfft       = angle(fftAudio)*(180/pi);
-f          = linspace(-fs/2,fs/2,length(fftAudio));
-
-axes(handles.axes1)
-figure,plot(f,mfft,'m.-')
-axis([0 40 0 100]);
 
 
 % --- Executes on button press in key5.
