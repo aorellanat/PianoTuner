@@ -953,6 +953,13 @@ if boton_estado == 1
           guidata(hObject,handles);
     else
         set(handles.toggleB,'String','all records saved ');
+        handles.flag1 = 0;
+        handles.flag2 = 0;
+        handles.flag3 = 0;
+        set(handles.toggleB,'String','Record ');
+        guidata(hObject,handles);
+
+
     end
     elseif(boton_estado == 0)
     if(handles.flag1 == 0)
