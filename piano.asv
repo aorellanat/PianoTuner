@@ -393,56 +393,56 @@ set(handles.txt_KeyName, 'String', "A6");
 function key75_Callback(hObject, eventdata, handles)
 playAudio('75.mp3');
 
-set(handles.txt_DisplayHz, 'String', "1975.53 Hz");
-set(handles.txt_KeyName, 'String', "B6");
+set(handles.txt_DisplayHz, 'String', "1760.00 Hz");
+set(handles.txt_KeyName, 'String', "A6");
 % --- Executes on button press in key76.
 function key76_Callback(hObject, eventdata, handles)
 playAudio('76.mp3');
 
-set(handles.txt_DisplayHz, 'String', "2093.00 Hz");
-set(handles.txt_KeyName, 'String', "C7");
+set(handles.txt_DisplayHz, 'String', "1864.66 Hz");
+set(handles.txt_KeyName, 'String', "A6#");
 % --- Executes on button press in key78.
 function key78_Callback(hObject, eventdata, handles)
 playAudio('78.mp3');
 
-set(handles.txt_DisplayHz, 'String', "2349.32 Hz");
-set(handles.txt_KeyName, 'String', "D7");
+set(handles.txt_DisplayHz, 'String', "2093.00 Hz");
+set(handles.txt_KeyName, 'String', "C7");
 % --- Executes on button press in key80.
 function key80_Callback(hObject, eventdata, handles)
 playAudio('80.mp3');
 
-set(handles.txt_DisplayHz, 'String', "2637.02 Hz");
-set(handles.txt_KeyName, 'String', "E7");
+set(handles.txt_DisplayHz, 'String', "2349.32 Hz");
+set(handles.txt_KeyName, 'String', "D7");
 % --- Executes on button press in key81.
 function key81_Callback(hObject, eventdata, handles)
 playAudio('81.mp3');
 
-set(handles.txt_DisplayHz, 'String', "2793.83 Hz");
-set(handles.txt_KeyName, 'String', "F7");
+set(handles.txt_DisplayHz, 'String', "2489.02 Hz");
+set(handles.txt_KeyName, 'String', "D7#");
 % --- Executes on button press in key83.
 function key83_Callback(hObject, eventdata, handles)
 playAudio('83.mp3');
 
-set(handles.txt_DisplayHz, 'String', "3135.96 Hz");
-set(handles.txt_KeyName, 'String', "G7");
+set(handles.txt_DisplayHz, 'String', "2793.83 Hz");
+set(handles.txt_KeyName, 'String', "F7");
 % --- Executes on button press in key85.
 function key85_Callback(hObject, eventdata, handles)
 playAudio('85.mp3');
 
-set(handles.txt_DisplayHz, 'String', "3520.00 Hz");
-set(handles.txt_KeyName, 'String', "A7");
+set(handles.txt_DisplayHz, 'String', "3135.96 Hz");
+set(handles.txt_KeyName, 'String', "G7");
 % --- Executes on button press in key87.
 function key87_Callback(hObject, eventdata, handles)
 playAudio('87.mp3');
 
-set(handles.txt_DisplayHz, 'String', "3951.07 Hz");
-set(handles.txt_KeyName, 'String', "B7");
+set(handles.txt_DisplayHz, 'String', "3520.00 Hz");
+set(handles.txt_KeyName, 'String', "A7");
 % --- Executes on button press in key88.
 function key88_Callback(hObject, eventdata, handles)
 playAudio('88.mp3');
 
-set(handles.txt_DisplayHz, 'String', "4186.01 Hz");
-set(handles.txt_KeyName, 'String', "C8");
+set(handles.txt_DisplayHz, 'String', "3729.31 Hz");
+set(handles.txt_KeyName, 'String', "A7#");
 
 % --- Executes on button press in key2.
 function key2_Callback(hObject, eventdata, handles)
@@ -659,38 +659,38 @@ set(handles.txt_KeyName, 'String', "G6#");
 function key74_Callback(hObject, eventdata, handles)
 playAudio('74.mp3');
 
-set(handles.txt_DisplayHz, 'String', "1864.66 Hz");
-set(handles.txt_KeyName, 'String', "A6#");
+set(handles.txt_DisplayHz, 'String', "1661.22 Hz");
+set(handles.txt_KeyName, 'String', "B6#");
 % --- Executes on button press in key77.
 function key77_Callback(hObject, eventdata, handles)
 playAudio('77.mp3');
 
-set(handles.txt_DisplayHz, 'String', "2217.46 Hz");
-set(handles.txt_KeyName, 'String', "C7#");
+set(handles.txt_DisplayHz, 'String', "1975.53 Hz");
+set(handles.txt_KeyName, 'String', "B6");
 % --- Executes on button press in key79.
 function key79_Callback(hObject, eventdata, handles)
 playAudio('79.mp3');
 
-set(handles.txt_DisplayHz, 'String', "2489.02 Hz");
-set(handles.txt_KeyName, 'String', "D7#");
+set(handles.txt_DisplayHz, 'String', "2217.46 Hz");
+set(handles.txt_KeyName, 'String', "C7#");
 % --- Executes on button press in key82.
 function key82_Callback(hObject, eventdata, handles)
 playAudio('82.mp3');
 
-set(handles.txt_DisplayHz, 'String', "2959.96 Hz");
-set(handles.txt_KeyName, 'String', "F7#");
+set(handles.txt_DisplayHz, 'String', "2637.02 Hz");
+set(handles.txt_KeyName, 'String', "E7");
 % --- Executes on button press in key84.
 function key84_Callback(hObject, eventdata, handles)
 playAudio('84.mp3');
 
-set(handles.txt_DisplayHz, 'String', "3322.44 Hz");
-set(handles.txt_KeyName, 'String', "G7#");
+set(handles.txt_DisplayHz, 'String', "2959.96 Hz");
+set(handles.txt_KeyName, 'String', "F7#");
 % --- Executes on button press in key86.
 function key86_Callback(hObject, eventdata, handles)
 playAudio('86.mp3');
 
-set(handles.txt_DisplayHz, 'String', "3729.31 Hz");
-set(handles.txt_KeyName, 'String', "A7#");
+set(handles.txt_DisplayHz, 'String', "3322.44 Hz");
+set(handles.txt_KeyName, 'String', "G7#");
 % --- If Enable == 'on', executes on mouse press in 5 pixel border.
 % --- Otherwise, executes on mouse press in 5 pixel border or over key8.
 function key8_ButtonDownFcn(hObject, eventdata, handles)
