@@ -40,7 +40,7 @@ function varargout = piano(varargin)
 
 % Edit the above text to modify the response to help piano
 
-% Last Modified by GUIDE v2.5 30-Aug-2019 11:33:04
+% Last Modified by GUIDE v2.5 30-Aug-2019 13:21:08
 
 % Begin initialization code - KEY1 NOT EDIT
 gui_Singleton = 1;
@@ -103,23 +103,6 @@ function key1_Callback(hObject, eventdata, handles)
 if get(handles.rbPianoMode, 'Value')
     playAudio('1.mp3');
 end
-
-[audio,fs] = audioread('1.mp3');
-audio      = audio(:,1)./max(audio(:,1));
-dt         = 1/fs;
-t          = linspace(0, length(audio)/fs, length(audio));
-T          = max(t);
-fftAudio   = fftshift(fft(audio));
-mfft       = abs(fftAudio);
-pfft       = angle(fftAudio)*(180/pi);
-f          = linspace(-fs/2,fs/2,length(fftAudio));
-
-axes(handles.axes1)
-plot(f,mfft,'m.-')
-axis([0 40 0 100]);
-
-set(handles.txt_DisplayHz, 'String', "27.5 Hz");
-set(handles.txt_KeyName, 'String', "Ao");
 
 % --- Executes when figure1 is resized.
 function figure1_SizeChangedFcn(hObject, eventdata, handles)
@@ -581,24 +564,6 @@ if get(handles.rbPianoMode, 'Value')
     playAudio('2.mp3');
 end
 
-[audio,fs] = audioread('2.mp3'); 
-fs
-audio      = audio(:,1)./max(audio(:,1));
-dt         = 1/fs;
-t          = linspace(0, length(audio)/fs, length(audio));
-T          = max(t);
-fftAudio   = fftshift(fft(audio));
-mfft       = abs(fftAudio);
-pfft       = angle(fftAudio)*(180/pi);
-f          = linspace(-fs/2,fs/2,length(fftAudio));
-
-axes(handles.axes1)
-plot(f,mfft,'m.-')
-axis([0 40 0 200]);
-
-set(handles.txt_DisplayHz, 'String', "29.135 Hz");
-set(handles.txt_KeyName, 'String', "Ao#");
-
 % --- Executes on button press in key5.
 function key5_Callback(hObject, eventdata, handles)
 if get(handles.rbPianoMode, 'Value')
@@ -920,33 +885,6 @@ function key8_ButtonDownFcn(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-function audioToFFT(pathAudio, handles)
-[s, Fs] = audioread(pathAudio);
-s = s(:,1);
-
-%Fourier transforms is to find the frequency components of a signal 
-%Fs = 10000;                    % Sampling frequency
-T = 1/Fs;                     % Sample time
-L = 1000;                     % Length of signal
-t = (0:L-1)*T;                % Time vector
-% Sum of a 50 Hz sinusoid and a 120 Hz sinusoid
-% x = 10*sin(2*pi*600*t) + 15*sin(2*pi*90*t); 
-% y = x + 2*randn(size(t));     % Sinusoids plus noise
-
-axes(handles.axes1);
-plot(s)
-xlabel('time (milliseconds)')
-
-NFFT = 2^nextpow2(L); % Next power of 2 from length of y
-Y = fft(s, NFFT)/L;
-f = Fs/2*linspace(0,1,NFFT/2+1);
-% Plot single-sided amplitude spectrum.
-axes(handles.axes2);
-plot(f,2*abs(Y(1:NFFT/2+1))) 
-%axis([0 4500 0 30]);
-xlabel('Frequency (Hz)')
-ylabel('|Y(f)|')
-
 % --- Executes on button press in pushbutton193.
 function pushbutton193_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton193 (see GCBO)
@@ -1152,3 +1090,19 @@ if get(handles.rbPianoMode, 'Value')
 %     case 'q', playAudio('82.mp3');
   end 
 end
+
+% --- Executes on button press in pushbutton200.
+function pushbutton200_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton200 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+[f, mfft] = audioToFFT('pianoC6.wav');
+
+[~, ifqY] = max(mfft);
+frequency = f(ifqY);
+
+axes(handles.axes1);
+plot(f,mfft); 
+xlabel('Frequency (Hz)');
+ylabel('|Y(f)|');
+set(handles.text4,'String', strcat('f[Hz] : ', num2str(frequency)));
