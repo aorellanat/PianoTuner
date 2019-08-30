@@ -22,7 +22,7 @@ function varargout = piano(varargin)
 
 % Edit the above text to modify the response to help piano
 
-% Last Modified by GUIDE v2.5 29-Aug-2019 21:18:31
+% Last Modified by GUIDE v2.5 29-Aug-2019 20:15:28
 
 % Begin initialization code - KEY1 NOT EDIT
 gui_Singleton = 1;
@@ -439,206 +439,140 @@ end
 % --- Executes on button press in key7.
 function key7_Callback(hObject, eventdata, handles)
 if get(handles.rbPianoMode, 'Value')
-    playAudio('7.mp3');
+    playAudio('1.mp3');
 end
 
 % --- Executes on button press in key10.
 function key10_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('10.mp3');
-end
+playAudio('10.mp3');
 
 % --- Executes on button press in key12.
 function key12_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('12.mp3');
-end
+playAudio('12.mp3');
 
 % --- Executes on button press in key14.
 function key14_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('14.mp3');
-end
+playAudio('14.mp3');
 
 % --- Executes on button press in key17.
 function key17_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('17.mp3');
-end
+playAudio('17.mp3');
 
 % --- Executes on button press in key19.
 function key19_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('19.mp3');
-end
+playAudio('19.mp3');
 
 % --- Executes on button press in key22.
 function key22_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('22.mp3');
-end
+playAudio('22.mp3');
 
 % --- Executes on button press in key24.
 function key24_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('24.mp3');
-end
+playAudio('24.mp3');
 
 % --- Executes on button press in key26.
 function key26_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('26.mp3');
-end
+playAudio('26.mp3');
 
 % --- Executes on button press in key29.
 function key29_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('29.mp3');
-end
+playAudio('29.mp3');
 
 % --- Executes on button press in key31.
 function key31_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('31.mp3');
-end
+playAudio('31.mp3');
 
 % --- Executes on button press in key34.
 function key34_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('34.mp3');
-end
+playAudio('34.mp3');
 
 % --- Executes on button press in key36.
 function key36_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('36.mp3');
-end
+playAudio('36.mp3');
 
 % --- Executes on button press in key38.
 function key38_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('38.mp3');
-end
+playAudio('38.mp3');
 
 % --- Executes on button press in key41.
 function key41_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('41.mp3');
-end
+playAudio('41.mp3');
 
 % --- Executes on button press in key43.
 function key43_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('43.mp3');
-end
+playAudio('43.mp3');
 
 % --- Executes on button press in key46.
 function key46_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('46.mp3');
-end
+playAudio('46.mp3');
 
 % --- Executes on button press in key48.
 function key48_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('48.mp3');
-end
+playAudio('48.mp3');
 
 % --- Executes on button press in key50.
 function key50_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('50.mp3');
-end
+playAudio('50.mp3');
 
 % --- Executes on button press in key53.
 function key53_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('53.mp3');
-end
+playAudio('53.mp3');
 
 % --- Executes on button press in key55.
 function key55_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('55.mp3');
-end
+playAudio('55.mp3');
 
 % --- Executes on button press in key58.
 function key58_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('58.mp3');
-end
+playAudio('58.mp3');
 
 % --- Executes on button press in key60.
 function key60_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('60.mp3');
-end
+playAudio('60.mp3');
 
 % --- Executes on button press in key62.
 function key62_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('62.mp3');
-end
+playAudio('62.mp3');
 
 % --- Executes on button press in key65.
 function key65_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('65.mp3');
-end
+playAudio('65.mp3');
 
 % --- Executes on button press in key67.
 function key67_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('67.mp3');
-end
+playAudio('67.mp3');
 
 % --- Executes on button press in key70.
 function key70_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('70.mp3');
-end
+playAudio('70.mp3');
 
 % --- Executes on button press in key72.
 function key72_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('72.mp3');
-end
+playAudio('72.mp3');
 
 % --- Executes on button press in key74.
 function key74_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('74.mp3');
-end
+playAudio('74.mp3');
 
 % --- Executes on button press in key77.
 function key77_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('77.mp3');
-end
+playAudio('77.mp3');
 
 % --- Executes on button press in key79.
 function key79_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('79.mp3');
-end
+playAudio('79.mp3');
 
 % --- Executes on button press in key82.
 function key82_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('82.mp3');
-end
+playAudio('82.mp3');
 
 % --- Executes on button press in key84.
 function key84_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('84.mp3');
-end
+playAudio('84.mp3');
 
 % --- Executes on button press in key86.
 function key86_Callback(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'Value')
-    playAudio('86.mp3');
-end
+playAudio('86.mp3');
 
 % --- If Enable == 'on', executes on mouse press in 5 pixel border.
 % --- Otherwise, executes on mouse press in 5 pixel border or over key8.
@@ -724,104 +658,9 @@ sound(y,Fs);
 function uibuttongroup_SelectionChangedFcn(hObject, eventdata, handles)
 switch get(get(handles.uibuttongroup,'SelectedObject'),'Tag')
       case 'rbPianoMode'
-          set(handles.lbInformation, 'String', {'Has seleccionado la opción modo piano. Ahora puedes comenzar a tocar con el mouse o con tu teclado. Para lo último cada tecla del piano tiene una letra, símbolo o número en en particular.'})
+          set(handles.lbInformation, 'String', {'Has seleccionado la opción modo piano.'})
       case 'rbTuneMode'
-          set(handles.lbInformation, 'String', 'Has seleccionado la opción modo afinación. Para esto debes de grabar 3 veces el sonido de la tecla que deseas afinar.')   
+          set(handles.lbInformation, 'String', 'Has seleccionado la opción modo afinación.')   
 end
 
-
-% --- Executes during object creation, after setting all properties.
-function rbTuneMode_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to rbTuneMode (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    empty - handles not created until after all CreateFcns called
-
-
-% --- Executes on key press with focus on figure1 or any of its controls.
-function figure1_WindowKeyPressFcn(hObject, eventdata, handles)
-if get(handles.rbPianoMode, 'value')
-  switch eventdata.Key
-    case 'q', playAudio('1.mp3');
-    %case 'q', playAudio('2.mp3');
-    case 'w', playAudio('3.mp3');
-    case 'e', playAudio('4.mp3');
-    %case 'q', playAudio('5.mp3');
-    case 'r', playAudio('6.mp3');
-    %case 'q', playAudio('7.mp3');
-    case 't', playAudio('8.mp3');
-    case 'y', playAudio('9.mp3');
-    %case 't', playAudio('10.mp3');
-    case 'u', playAudio('11.mp3');
-    %case 'q', playAudio('12.mp3');
-    case 'i', playAudio('13.mp3');
-%   case 'q', playAudio('14.mp3');
-    case 'o', playAudio('15.mp3');
-    case 'p', playAudio('16.mp3');
-%     case 'q', playAudio('17.mp3');
-    case 'a', playAudio('18.mp3');
-%     case 'q', playAudio('19.mp3');
-    case 's', playAudio('20.mp3');
-    case 'd', playAudio('21.mp3');
-%     case 'q', playAudio('22.mp3');
-    case 'f', playAudio('23.mp3');
-%     case 'q', playAudio('24.mp3');
-    case 'g', playAudio('25.mp3');
-%     case 'q', playAudio('26.mp3');
-    case 'h', playAudio('27.mp3');
-%     case 'q', playAudio('28.mp3');
-%     case 'q', playAudio('29.mp3');
-%     case 'q', playAudio('30.mp3');
-%     case 'q', playAudio('31.mp3');
-%     case 'q', playAudio('32.mp3');
-%     case 'q', playAudio('33.mp3');
-%     case 'q', playAudio('34.mp3');
-%     case 'q', playAudio('35.mp3');
-%     case 'q', playAudio('36.mp3');
-%     case 'q', playAudio('37.mp3');
-%     case 'q', playAudio('38.mp3');
-%     case 'q', playAudio('39.mp3');
-%     case 'q', playAudio('40.mp3');
-%     case 'q', playAudio('41.mp3');
-%     case 'q', playAudio('42.mp3');
-%     case 'q', playAudio('43.mp3');
-%     case 'q', playAudio('44.mp3');
-%     case 'q', playAudio('45.mp3');
-%     case 'q', playAudio('46.mp3');
-%     case 'q', playAudio('47.mp3');
-%     case 'q', playAudio('48.mp3');
-%     case 'q', playAudio('49.mp3');
-%     case 'q', playAudio('50.mp3');
-%     case 'q', playAudio('51.mp3');
-%     case 'q', playAudio('52.mp3');
-%     case 'q', playAudio('53.mp3');
-%     case 'q', playAudio('54.mp3');
-%     case 'q', playAudio('55.mp3');
-%     case 'q', playAudio('56.mp3');
-%     case 'q', playAudio('57.mp3');
-%     case 'q', playAudio('58.mp3');
-%     case 'q', playAudio('59.mp3');
-%     case 'q', playAudio('60.mp3');
-%     case 'q', playAudio('61.mp3');
-%     case 'q', playAudio('62.mp3');
-%     case 'q', playAudio('63.mp3');
-%     case 'q', playAudio('64.mp3');
-%     case 'q', playAudio('65.mp3');
-%     case 'q', playAudio('66.mp3');
-%     case 'q', playAudio('67.mp3');
-%     case 'q', playAudio('68.mp3');
-%     case 'q', playAudio('69.mp3');
-%     case 'q', playAudio('70.mp3');
-%     case 'q', playAudio('71.mp3');
-%     case 'q', playAudio('72.mp3');
-%     case 'q', playAudio('73.mp3');
-%     case 'q', playAudio('74.mp3');
-%     case 'q', playAudio('75.mp3');
-%     case 'q', playAudio('76.mp3');
-%     case 'q', playAudio('77.mp3');
-%     case 'q', playAudio('78.mp3');
-%     case 'q', playAudio('79.mp3');
-%     case 'q', playAudio('80.mp3');
-%     case 'q', playAudio('81.mp3');
-%     case 'q', playAudio('82.mp3');
-  end  
-end
+function rbTuneMode_Callback(hObject, eventdata, handles)
