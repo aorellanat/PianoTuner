@@ -927,7 +927,8 @@ function togglebutton1_Callback(hObject, eventdata, handles)
 
 % --- Executes on button press in toggleB.
 function toggleB_Callback(hObject, eventdata, handles)
-if get(handles.toggleB,'value')
+boton_estado = get(handles.toggleB,'value');
+if boton_estado == 1
     if(handles.flag1 == 0)
         set(handles.toggleB,'String','Stop Recording1 ');
 
