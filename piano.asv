@@ -643,7 +643,10 @@ elseif(boton_estado == 0)
         handles.signaldata1 = getaudiodata(s1);
         sound(handles.signaldata1);
          guidata(hObject,handles);
-        set(handles.toggleB,'String','start Recording 2 ');        
+        set(handles.toggleB,'String','start Recording 2 ');
+
+
+        
     elseif(handles.flag2 == 0)
          s2 = handles.signaldata2;
         stop(s2);
@@ -651,7 +654,10 @@ elseif(boton_estado == 0)
         handles.signaldata2 = getaudiodata(s2);
         sound(handles.signaldata2);
         guidata(hObject,handles);
-        set(handles.toggleB,'String','start Recording 3 ');
+        set(handles.toggleB,'String','start Recording 2 ');
+
+
+
     elseif(handles.flag3 == 0)
         s3 = handles.signaldata3;
         stop(s3);
