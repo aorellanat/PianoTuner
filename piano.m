@@ -757,11 +757,6 @@ ylabel('|Y(f)|')
 
 
 % --- Executes on button press in pushbutton192.
-function pushbutton192_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton192 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
 
 % --- Executes on button press in pushbutton193.
 function pushbutton193_Callback(hObject, eventdata, handles)
