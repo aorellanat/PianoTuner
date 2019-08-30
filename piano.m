@@ -2,7 +2,26 @@ function varargout = piano(varargin)
 % PIANO MATLAB code for piano.fig
 %      PIANO, by itself, creates a new PIANO or raises the existing
 %      singleton*.
-%
+%if(handles.ls
+% ls = 5;
+% handles.ls = ls;
+% guidata(handles);
+% global signal1;
+% signal1 = audiorecorder;
+% handles.
+
+
+% global signal2;
+% signal2 = audiorecorder;
+% global signal3;
+% signal3 = audiorecorder;
+% global signaldata1; global signaldata2; global signaldata3;
+% signaldata1 = 0;
+% signaldata2 = 0;
+% signaldata3 = 0;
+% global flag1; global flag2; global flag3;
+% flag1 = 0;flag2 = 0;flag3  = 0;
+
 %      H = PIANO returns the handle to a new PIANO or the handle to
 %      the existing singleton*.
 %
@@ -22,7 +41,7 @@ function varargout = piano(varargin)
 
 % Edit the above text to modify the response to help piano
 
-% Last Modified by GUIDE v2.5 29-Aug-2019 18:36:04
+% Last Modified by GUIDE v2.5 29-Aug-2019 21:04:08
 
 % Begin initialization code - KEY1 NOT EDIT
 gui_Singleton = 1;
@@ -33,6 +52,7 @@ gui_State = struct('gui_Name',       mfilename, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 if nargin && ischar(varargin{1})
+    
     gui_State.gui_Callback = str2func(varargin{1});
 end
 
@@ -54,6 +74,13 @@ function piano_OpeningFcn(hObject, ~, handles, varargin)
 
 % Choose default command line output for piano
 handles.output = hObject;
+handles.flag1 = 0;
+handles.flag2 = 0;
+handles.flag3 = 0;
+s1 = audiorecorder; s2 = audiorecorder; s3= audiorecorder;
+handles.signaldata1 = s1;
+handles.signaldata2 = s2;
+handles.signaldata3 = s3;
 
 % Update handles structure
 guidata(hObject, handles);
@@ -782,3 +809,85 @@ function togglebutton1_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 % Hint: get(hObject,'Value') returns toggle state of togglebutton1
+
+
+% --- Executes on button press in toggleB.
+function toggleB_Callback(hObject, eventdata, handles)
+boton_estado = get(handles.toggleB,'value');
+
+if(boton_estado ==1)
+    if(handles.flag1 == 0)
+        set(handles.toggleB,'String','Stop Recording1 ');
+
+        sig1 = audiorecorder;
+        record(sig1);    
+         handles.signaldata1= sig1;
+          guidata(hObject,handles);
+
+    elseif(handles.flag2 == 0)
+        set(handles.toggleB,'String','Stop Recording2 ');
+
+        sig2 = audiorecorder;
+        record(sig2);    
+         handles.signaldata2= sig2;
+          guidata(hObject,handles);
+    elseif(handles.flag3 == 0)
+        set(handles.toggleB,'String','Stop Recording3 ');
+
+        sig3 = audiorecorder;
+        record(sig3);    
+         handles.signaldata3= sig3;
+          guidata(hObject,handles);
+    else
+        set(handles.toggleB,'String','all records saved ');
+    end
+elseif(boton_estado == 0)
+    if(handles.flag1 == 0)
+        s1 = handles.signaldata1;
+        stop(s1);
+        handles.flag1 = 1;
+        handles.signaldata1 = getaudiodata(s1);
+        sound(handles.signaldata1);
+         guidata(hObject,handles);
+        set(handles.toggleB,'String','start Recording 2 ');        
+    elseif(handles.flag2 == 0)
+         s2 = handles.signaldata2;
+        stop(s2);
+        handles.flag2 = 1;
+        handles.signaldata2 = getaudiodata(s2);
+        sound(handles.signaldata2);
+        guidata(hObject,handles);
+        set(handles.toggleB,'String','start Recording 3 ');
+    elseif(handles.flag3 == 0)
+        s3 = handles.signaldata3;
+        stop(s3);
+        handles.flag3 = 1;
+        handles.signaldata3 = getaudiodata(s3);
+        sound(handles.signaldata3);
+        guidata(hObject,handles);
+        set(handles.toggleB,'String','end recording ');
+
+    end
+end
+        
+% hObject    handle to toggleB (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of toggleB
+
+
+% --- Executes on button press in radiobutton5.
+function radiobutton5_Callback(hObject, eventdata, handles)
+% hObject    handle to radiobutton5 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of radiobutton5
+
+
+% --- Executes during object creation, after setting all properties.
+function uibuttongroup3_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to uibuttongroup3 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
