@@ -1104,12 +1104,12 @@ function pushbutton200_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton200 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-[f, mfft] = audioToFFT('pianoC6.wav');
+[f, mfft] = audioToFFT('1-sr.wav');
 
 [~, ifqY] = max(mfft);
 frequency = f(ifqY);
 
-axes(handles.axes1);
+figure;
 plot(f,mfft); 
 xlabel('Frequency (Hz)');
 ylabel('|Y(f)|');
