@@ -930,62 +930,26 @@ function toggleB_Callback(hObject, eventdata, handles)
 boton_estado = get(handles.toggleB,'value');
 if boton_estado == 1
     if(handles.flag1 == 0)
-        set(handles.toggleB,'String','Stop Recording1 ');
+        set(handles.toggleB,'String','Stop Recording ');
 
         sig1 = audiorecorder;
         record(sig1);    
          handles.signaldata1= sig1;
           guidata(hObject,handles);
 
-    elseif(handles.flag2 == 0)
-        set(handles.toggleB,'String','Stop Recording2 ');
-
-        sig2 = audiorecorder;
-        record(sig2);    
-         handles.signaldata2= sig2;
-          guidata(hObject,handles);
-    elseif(handles.flag3 == 0)
-        set(handles.toggleB,'String','Stop Recording3 ');
-
-        sig3 = audiorecorder;
-        record(sig3);    
-         handles.signaldata3= sig3;
-          guidata(hObject,handles);
-    else
-        set(handles.toggleB,'String','all records saved ');
-        handles.flag1 = 0;
-        handles.flag2 = 0;
-        handles.flag3 = 0;
-        set(handles.toggleB,'String','Record ');
-        guidata(hObject,handles);
-
+        
 
     end
     elseif(boton_estado == 0)
     if(handles.flag1 == 0)
         s1 = handles.signaldata1;
         stop(s1);
-        handles.flag1 = 1;
-        handles.signaldata1 = getaudiodata(s1);
-        sound(handles.signaldata1);
+        %handles.flag1 = 1;
+        %handles.signaldata1 = getaudiodata(s1);
+        %sound(handles.signaldata1);
          guidata(hObject,handles);
-        set(handles.toggleB,'String','start Recording 2 ');        
-    elseif(handles.flag2 == 0)
-        s2 = handles.signaldata2;
-        stop(s2);
-        handles.flag2 = 1;
-        handles.signaldata2 = getaudiodata(s2);
-        sound(handles.signaldata2);
-        guidata(hObject,handles);
-        set(handles.toggleB,'String','start Recording 3 ');
-    elseif(handles.flag3 == 0)
-        s3 = handles.signaldata3;
-        stop(s3);
-        handles.flag3 = 1;
-        handles.signaldata3 = getaudiodata(s3);
-        sound(handles.signaldata3);
-        guidata(hObject,handles);
-        set(handles.toggleB,'String','end recording ');
+        set(handles.toggleB,'String','Record');        
+        
     end
 end
 
