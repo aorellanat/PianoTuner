@@ -1064,16 +1064,21 @@ end
 
 % --- Executes on button press in pushbutton200.
 function pushbutton200_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton200 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-[f, mfft] = audioToFFT('1-sr.wav');
+% new version
+[xFF, xAFF] = filterBandPass('New41-v2.wav', 200, 262);
+% axes(handles.axes1);
+% plot(xFF,xAFF);
+% axis([0 500 0 1000])
+% xlabel('Frequency (Hz)');
+% ylabel('Amplitude');
+% title('Signal after the low pass filter of the FFT');
 
-[~, ifqY] = max(mfft);
-frequency = f(ifqY);
-
-figure;
-plot(f,mfft); 
-xlabel('Frequency (Hz)');
-ylabel('|Y(f)|');
-set(handles.text4,'String', strcat('f[Hz] : ', num2str(frequency)));
+% old version
+% [f, mfft] = audioToFFT('1-sr.wav');
+% [~, ifqY] = max(mfft);
+% frequency = f(ifqY);
+% figure;
+% plot(f,mfft); 
+% xlabel('Frequency (Hz)');
+% ylabel('|Y(f)|');
+% set(handles.text4,'String', strcat('f[Hz] : ', num2str(frequency)));
