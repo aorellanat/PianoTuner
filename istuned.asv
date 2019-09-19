@@ -1,10 +1,12 @@
-function y = istuned(standard,actual)
+function text = istuned(standard,actual)
+speech = audioread(");
+sound(y,Fs);
 if standard > actual
-    y = "Se debe tensar la cuerda";
-else if standard == actual
-    y = "Se debe aflojar la cuerda";
-    else 
-        y = "Se debe aflojar la cuerda";
+    text = "Se debe tensar la cuerda";
+elseif standard == actual
+    text = "La cuerda está afinada";
+else 
+    text = "Se debe aflojar la cuerda";
 
 end
 
