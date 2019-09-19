@@ -930,7 +930,7 @@ function toggleB_Callback(hObject, eventdata, handles)
 boton_estado = get(handles.toggleB,'value');
 if boton_estado == 1
     if(handles.flag1 == 0)
-        set(handles.toggleB,'String','Parar grabación');
+        set(handles.toggleB,'String','Parar grab');
         sig1 = audiorecorder;
         record(sig1);
         handles.signaldata1= sig1;
@@ -944,7 +944,7 @@ elseif(boton_estado == 0)
         handles.fs1 = get(s1, 'TotalSamples');
         sound(handles.signaldata1);
         guidata(hObject,handles);
-        set(handles.toggleB,'String','Grabar');
+        set(handles.toggleB,'String','Record');
         
         disp("Grabación finalizada");
         axes(handles.axes1);
