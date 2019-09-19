@@ -1,0 +1,11 @@
+function y = istuned(standard,actual)
+if standard > actual
+    y = "Se debe tensar la cuerda";
+else if standard == actual
+    y = "Se debe aflojar la cuerda";
+    else 
+        y = "Se debe aflojar la cuerda";
+
+end
+
+end

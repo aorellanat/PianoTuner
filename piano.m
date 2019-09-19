@@ -1082,3 +1082,16 @@ function pushbutton201_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton201 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+
+
+function text = istuned(standard,actual)
+if standard > actual
+    text = "Se debe tensar la cuerda";
+elseif standard == actual
+    text = "La cuerda está afinada";
+else 
+    text = "Se debe aflojar la cuerda";
+
+end
+
+end
