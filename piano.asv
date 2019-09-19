@@ -1075,7 +1075,7 @@ title('Señal en frecuencia');
 
 [~, ifqY] = max(xAFF);
 frequency = xFF(ifqY);
-set(handles.text5,'String', strcat('Frecuencia estándar: ', num2str(frequency), ' [Hz]'));
+set(handles.text5,'String', strcat('Frecuencia estándar:', num2str(frequency)));
 
 % --- Executes on button press in pushbutton201.
 function pushbutton201_Callback(hObject, eventdata, handles)
