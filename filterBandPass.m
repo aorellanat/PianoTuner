@@ -1,7 +1,6 @@
-function [xFF,xAFF] = filterBandPass(pathAudio, upperLimit, lowerLimit)
+function [xFF,xAFF] = filterBandPass(pathAudio, limit)
 % UPB
 clc;
-close all;
 
 % Collect data
 [x,fs] = audioread(pathAudio);
@@ -34,14 +33,14 @@ ylabel('Amplitude (V)');
 title('FFT of enveloping');
 
 % Design band pass filter
-[b,a] = ellip(3, 0.1, 40,[lowerLimit upperLimit]*2/fs);
+[b,a] = ellip(5, 0.1, 40,[limit]*2/fs);
 [H,w] = freqz(b,a,512*20);
 subplot(4,1,3)
 plot(w*Fs/(2*pi),abs(H))
 axis([0 500 0 2])
 xlabel('Frequency (Hz)');
 ylabel('Amplitude');
-title('Band pass filter');
+title('Low pass filter');
 
 sf1 = filter(b,a,x);
 xFF = [fs/length(x):fs/length(x):floor(fs/2)];
@@ -52,6 +51,6 @@ plot(xFF, xAFF);
 axis([0 500 0 10000])
 xlabel('Frequency (Hz)');
 ylabel('Amplitude');
-title('Signal after the band pass filter of the FFT');
+title('Signal after the low pass filter of the FFT');
 end
 

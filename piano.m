@@ -40,7 +40,7 @@ function varargout = piano(varargin)
 
 % Edit the above text to modify the response to help piano
 
-% Last Modified by GUIDE v2.5 30-Aug-2019 13:21:08
+% Last Modified by GUIDE v2.5 19-Sep-2019 14:23:07
 
 % Begin initialization code - KEY1 NOT EDIT
 gui_Singleton = 1;
@@ -1065,7 +1065,7 @@ end
 % --- Executes on button press in pushbutton200.
 function pushbutton200_Callback(hObject, eventdata, handles)
 % new version
-[xFF, xAFF] = filterBandPass('New41-v2.wav', 200, 262);
+[xFF, xAFF] = filterBandPass('New24-v2.wav', 106);
 % axes(handles.axes1);
 % plot(xFF,xAFF);
 % axis([0 500 0 1000])
@@ -1082,3 +1082,10 @@ function pushbutton200_Callback(hObject, eventdata, handles)
 % xlabel('Frequency (Hz)');
 % ylabel('|Y(f)|');
 % set(handles.text4,'String', strcat('f[Hz] : ', num2str(frequency)));
+
+
+% --- Executes on button press in pushbutton201.
+function pushbutton201_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton201 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
